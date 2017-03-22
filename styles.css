@@ -1,60 +1,136 @@
 body {
-  margin: 0;
-  font-family: 'Merriweather', serif;
-}
-
-img {
-  width: 100%;
-}
-/*multi line comment*/
-article {
-  max-width: 740px;
+  width: 800px;
   margin: 0 auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #222;
 }
 
-h1, h2 {
-  text-align: center;
-  font-family: 'Lato', sans-serif;
+article {
+  margin: 0;
+  padding: 0;
+  background-image: url(images/george.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 333px 500px;
 }
+
 
 h1 {
-  margin-bottom: 0px;
-  margin-top: 39px;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 40px;
-  letter-spacing: -1.12px;
-  line-height: 41.6px
+  font-size: 70px;
+  margin: 0 0 80px 0;
+  font-weight: lighter;
+  padding-left: 300px;
+  padding-top: 55px;
 }
 
 h2 {
-    color: rgba(0, 0, 0, 0.5);
-    margin-top: 5px;
-    margin-bottom: 22px;
-    font-weight: 300;
-    font-size: 27px;
-    letter-spacing: -0.594px;
-    line-height: 32.94px;
-}
-
-section, div {
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 21px;
-    letter-spacing: -0.63px;
-    line-height: 33.18px;
-}
-
-section {
-    font-style: italic;
-}
-
-a {
-    color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
 }
 
 h3 {
-  text-align: center;
-  font-size: 80;
-  letter-spacing: 10px;
-  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+h4 {
+  font-size: 35px;
+  margin: 0 0 -10px 0;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+
+div {
+  margin: 7% 7%;
+}
+
+blockquote {
+  background-color: rgb(68, 68, 68);
+  background-image: url(images/blockquote.png);
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  background-size: auto 70px;
+  color: white;
+  font-size: 24px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding: 20px 40px;
+  margin: 0;
+}
+
+li {
+  list-style-type: square;
+  line-height: 1.7em;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+a {
+  color: black;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 0;
+}
+
+.intro {
+  padding-top: 120px;
+  letter-spacing: 1px;
+  line-height: 1.7em;
+}
+
+.captain {
+  text-align: right;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.achievements > p {
+  font-size: 15px;
+  letter-spacing: .5px;
+  line-height: 1.7em;
+}
+
+.interests li {
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 1.7em;
+}
+
+.training li, .experience li {
+  font-size: 15px;
+  letter-spacing: .3px;
+  line-height: 1.7em;
+}
+
+.training p, .experience p {
+  font-size: 14px;
+  font-style: italic;
+  font-family: 'Merriweather', serif;
+  line-height: 1.7em;
+  margin-top: 0;
+}
+
+.training h3, .experience h3 {
+  font-size: 25px;
+  letter-spacing: .5px;
+  font-weight: bold;
+}
+
+.exp-list {
+  margin-bottom: 0;
 }
